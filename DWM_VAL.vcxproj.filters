@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source">
+      <UniqueIdentifier>{91c82f9a-2703-444f-80f7-948cd2d0dae0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Kernel">
+      <UniqueIdentifier>{a9e8afb2-abaa-43bf-b19e-cc4b98132bf9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Config">
+      <UniqueIdentifier>{b0745aa5-1294-40a3-a4fe-451b0dcc4372}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Decrypt">
+      <UniqueIdentifier>{5ede4818-b065-4fe0-9d57-fe86146e80c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Entity">
+      <UniqueIdentifier>{b15c1196-3aa6-407f-b335-79a056ea7a5f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Overlay">
+      <UniqueIdentifier>{ed28630a-5d4a-4e17-adf8-4c4196ad3653}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Utils">
+      <UniqueIdentifier>{5cc76524-40ca-4a33-8e4b-4971f34b6694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Vector">
+      <UniqueIdentifier>{47ddc6ed-2a5b-4a3e-85fb-5e9a810e0f20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Include">
+      <UniqueIdentifier>{0307be70-f317-4468-ac7e-5c7549cb1af0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Overlay\imgui">
+      <UniqueIdentifier>{8d8f2283-e936-4b76-8285-eff59ff1f010}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Kernel\IOCTL_Define.h">
+      <Filter>Source\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Kernel\Memory.h">
+      <Filter>Source\Kernel</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.hpp">
+      <Filter>Source\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DecryptUWorld.hpp">
+      <Filter>Source\Decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.hpp">
+      <Filter>Source\Decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="xor.hpp">
+      <Filter>Source\Decrypt</Filter>
+    </ClInclude>
+    <ClInclude Include="Entitys.hpp">
+      <Filter>Source\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Util.hpp">
+      <Filter>Source\Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="Setup.hpp">
+      <Filter>Source\Overlay</Filter>
+    </ClInclude>
+    <ClInclude Include="vector3.h">
+      <Filter>Source\Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Valorant.hpp">
+      <Filter>Source\Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.hpp">
+      <Filter>Source</Filter>
+    </ClInclude>
+    <ClInclude Include="includes.hpp">
+      <Filter>Source\Include</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imconfig.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_glfw.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_impl_opengl3.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imgui_internal.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_rectpack.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_textedit.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="include\imgui\imstb_truetype.h">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_demo.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_draw.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_glfw.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_impl_opengl3.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_tables.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="include\imgui\imgui_widgets.cpp">
+      <Filter>Source\Overlay\imgui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
